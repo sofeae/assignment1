@@ -1,0 +1,11 @@
+CREATE DATABASE db1;
+
+CREATE TABLE db1.student (
+  id INT NOT NULL,
+  name VARCHAR(45) NULL,
+  dept VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
+
+SELECT * FROM db1.student;
+INSERT INTO student (id, name, dept)
+VALUES (777777, 'pAW', 'multimedia'), (333333, 'sofeae', 'software');
